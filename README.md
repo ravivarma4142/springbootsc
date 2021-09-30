@@ -16,14 +16,15 @@
 	# Application is up and running at http:localhost:8082
 	
 This application has two api's
+
 	# http://localhost:8082/addUser --POST
 	This api save's user details as provided in the request body.
 	Request Body:
 	{
-	  "name": "Mili",
-	  "sex": "Female",
-	  "age": "22",
-	  "country": "United Kingdom"
+	    "name": "Mili",
+	    "age": 33,
+	    "sex": "Female",
+	    "country": "Albania",
 	}
 	
 	# http://localhost:8082/fetchUser/Mili --GET
@@ -33,7 +34,7 @@ This application has two api's
 	{
 	    "name": "ravi",
 	    "age": 33,
-	    "sex": "Male",
+	    "sex": "Female",
 	    "country": "Albania",
 	    "createdDate": "2021-09-30T13:26:56.802+00:00"
 	}
